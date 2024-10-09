@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.edit-icon-grades {
+    color: #4953cf ;
+    cursor: pointer;
+}
+
+.create-icon-grades {
+    color: rgb(179, 21, 16);
+    cursor: pointer;
+}
+
+.table-container {
+    overflow-x: scroll;
+}
+

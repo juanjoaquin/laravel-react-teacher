@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.form-create-alumno {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    text-align: start;
+    margin: auto;
+    gap: 10px;
+    margin-top: 20px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 1rem;
+}
+
+.form-create-alumno input {
+    padding: 6px;
+    border-radius: 0.3rem;
+    border: #4953cf 1px solid;
+    outline: none;
+    background-color: #4952cf15;
+}
+
+.form-create-alumno button {
+    padding: 7px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    border: none;
+    background-color: #4953cf;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    border-radius: 0.3rem;
+}
+
+.text-create-alumno {
+    padding: 30px;
+    text-align: start;
+
+}
+
+.text-create-alumno h4 {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    
+}
+
+.back-to-index {
+    margin-top: 8px;
+}
+
+.back-to-index a {
+    text-decoration: none;
+    outline: none;
+    color: rgb(190, 190, 187);
+}
+
+@media screen and (min-width: 1024px) {
+    .form-create-alumno {
+        width: 37%;
+    }
+    
+    .form-create-alumno button {
+        width: 20%;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .form-create-alumno input {
+        padding: 10px;
+    }
+
+    .form-create-alumno button:hover {
+        background-color: #5e65d3;
+    }
+}
+
+
+
+
+

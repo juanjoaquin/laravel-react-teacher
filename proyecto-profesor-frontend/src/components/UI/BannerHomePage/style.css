@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-container {
+    
+
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 95%;
+    margin: auto;
+}
+
+.h2-banner {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(31, 4, 4);
+    font-size: 3rem;
+}
+
+.banner-content {
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+}
+

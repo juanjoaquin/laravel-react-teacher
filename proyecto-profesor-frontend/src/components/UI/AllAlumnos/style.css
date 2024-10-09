@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.background-alumnos {
+    background-color: #4953cf;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.header-alumnos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.header-alumnos h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.header-alumnos h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.block-alumnos {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 0.8rem;
+    width: 90%;
+    text-align: center;
+    /* overflow: scroll; */
+}
+
+.block-one {
+    padding: 10px;
+    
+}
+
+.block-one p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #4953cf;
+    
+}
+.block-one  a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.block-two  a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.block-two {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+
+}
+
+.block-two p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #4953cf;
+}
+
+.block-three {
+    padding: 10px;
+    
+}
+
+.block-three p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #4953cf;
+}
+
+.block-three a {
+    text-decoration: none;
+
+}
+
+.add-alumno {
+    color: blueviolet;
+    margin-top: 5px;
+}
+
+.open-alumno {
+    color: blueviolet;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+
+.asistencia-table {
+    color: blueviolet;
+    margin-top: 5px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    /* overflow: scroll; */
+}
+
+.info-all-alumnos {
+    margin: 12px;
+    padding: 10px;
+    text-align: start;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: rgb(238, 237, 236);
+}
+
+.table-alumnos {
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    width: 100%;
+}
+
+.table-thead-alumnos {
+    background-color: #4953cf;
+    color: #fff;
+}
+
+.table-thead-alumnos th {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 3px;
+}
+
+
+.tbody-alumnos td {
+    border: 1px solid #ddd;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 8px;
+    
+}
+
+
+.tbody-alumnos tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.presente {
+    color: green;
+    font-weight: bold;
+    
+}
+
+.ausente {
+    color: red;
+    font-weight: bold;
+    
+}
+
+.delete-table {
+    color: red;
+    cursor: pointer;
+}
+
+.open-table {
+    color: #4953cf;
+
+}
+
+.button-alumno {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.a-alumno {
+    margin-top: 25px;
+    text-decoration: none;
+    border: none;
+    padding: 12px;
+    border-radius: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: #4953cf;
+    display: flex;
+    gap: 10px;
+
+}
+
+.a-alumno:hover {
+    background-color: #3c48f3;
+}
+
+@media screen and (min-width: 640px) {
+    .table-container {
+        scrollbar-width: none;
+    }
+
+    .open-table:hover {
+        color: #9a54d4;
+    }
+
+    .delete-table:hover {
+        color: rgb(175, 6, 6);
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .table-container {
+        scrollbar-width: none;
+    }
+    
+    .table-alumnos {
+        width: 58%;
+    }
+
+    .background-alumnos {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    .header-alumnos h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: aliceblue;
+        font-size: 3rem;
+    }
+
+    .block-alumnos {
+        width: 60%;
+    }
+
+    .block-one p:hover {
+        color: #9a54d4;
+    }     .block-two p:hover {
+        color: #9a54d4;
+    }     .block-three p:hover {
+        color: #9a54d4;
+    }
+
+}
+

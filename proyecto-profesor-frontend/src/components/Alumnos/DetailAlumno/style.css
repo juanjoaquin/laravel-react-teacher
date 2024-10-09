@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.profile-img {
+    width: 20%;
+    margin-top: 15px;
+}
+
+.alumno-img {
+
+    text-align: center;
+}
+
+
+
+.name-surname {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.informacion-profile {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #5961cc ;
+    border-radius: 1rem;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px; 
+    box-shadow: rgba(163, 163, 163, 0.33) 1px 5px 2px 0px;
+}
+
+.informacion-profile {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.informacion-profile span {
+    font-weight: 400;
+}
+
+
+.informacion-profile-text {
+    flex-direction: column;
+    text-align: left;
+    display: flex;
+}
+
+.icon-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(223, 222, 226);
+    border-radius: 0.4rem;
+    
+}
+
+.assist-span {
+    font-weight: 600;
+    
+}
+
+.span-label {
+    font-weight: 400;
+    color: rgb(143, 143, 143);
+}
+
+
+@media screen and (min-width: 1024px) {
+    .alumno-img {
+        width: 25%;
+        margin: 0 auto;
+    }
+
+    .name-surname {
+        font-size: 21px;
+    }
+
+    .informacion-profile {
+        width: 40%;
+    }
+}

@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.asistencias-alumnos-header {
+    text-align: start;
+    padding: 20px;
+    
+}
+
+.asistencias-alumnos-header h2 {
+margin-bottom: 5px;
+color: aliceblue;
+font-family: 'Roboto', sans-serif;
+}
+
+.asistencias-alumnos-header p {
+    color: rgb(240, 240, 240);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+
+
+.header-alumnos h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+
+.mapeo-assist {
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.mapeo-child {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 14px;
+    border-radius: 0.8rem;
+    box-shadow: rgba(163, 163, 163, 0.2) 5px 5px 2px 0px;
+    background-color: #f0f4f7;
+}
+
+.mapeo-child:nth-child(even) {
+    background-color: #4952cf31;
+}
+
+.mapeo-name-surname {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.mapeo-name-surname {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.alumno-asistencia-map {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+
+
+.alumno-asistencia-map .add-assit {
+    color: #4953cf; 
+    font-size: 21px;
+}
+
+.no-assist-map {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(116, 11, 20)
+}
+
+@media screen and (min-width: 1024px) {
+    .mapeo-assist {
+        width: 55%;
+    }
+
+    .mapeo-name-surname p {
+        font-size: 18px;
+    }
+
+
+}
+
+
