@@ -21,6 +21,7 @@ Esta diseñada con la idea de que sea un único profesor que posee la app para p
 ![1](https://imgur.com/Ho8iESl.png)
 
 2. ```Sección de Alumnos```
+
 Información general de los Alumnos con el CRUD del mismo. Además de poseer la información de sus notas y de sus asistencias.
 
 ![2](https://imgur.com/tBG7buP.png)
